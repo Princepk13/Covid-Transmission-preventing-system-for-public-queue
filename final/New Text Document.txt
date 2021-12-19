@@ -1,0 +1,30 @@
+*{
+	margin:0
+	padding:0
+}
+
+body {
+  background: #fff;
+  color: #666666;
+}
+
+
+html{
+  scroll-behaviour:smooth;
+}
+
+.banner{
+       height: 800px;
+       width: 100%;
+       background-image:linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)),url(images/Robots.jpg);
+       background-position: center;
+       background-size: cover; 
+       padding-left:5%;
+       padding-right:5%;
+       text-align:center;
+       display:grid;
+       grid-template-column:repeat(auto-ft,minmax(250px,1fr));
+       grid;
+       box-sizing: border-box;
+       position: relative;
+}
